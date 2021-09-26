@@ -12,9 +12,9 @@ public class Ex21 {
                 System.out.print("This is a leap year!");
 
             } else if (year % 100 != 0) {
-                System.out.print("This is a leap year");
+                System.out.print("This is not a leap year");
 
-            } else if (year % 100 == 0) {
+            } else if (year % 100 == 0 && year % 400 != 0) {
                 System.out.println("This is not a leap year!");
 
             }
